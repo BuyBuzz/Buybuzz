@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Faculty+Glyphic&family=Knewave&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Faculty+Glyphic&family=Knewave&family=Oswald:wght@200..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-size: 15pt;
+}
+.navbar{
+ background-image: linear-gradient(#F7DC6F, #234567) ;
+ font-family: "Sour Gummy", sans-serif;
+ color: whitesmoke;
+ text-shadow: 1px 1px 2px black;
+}
+.navbar ul{
+  display: flex;
+  align-items: center;
+}
+#logo{
+  height: 60px;
+  width: 60px ;
+  box-shadow: 2px 3px 4px black;
+  border-radius: 15px;
+  margin-left: 25px;
+}
+li a{
+  text-decoration: none;
+  color: ghostwhite;
+  font-size: 30px;
+}
+li{
+  list-style: none;
+  margin: 10px;
+}
+.headline{
+  font-size: 30px;
+  margin: 0;
+}
+.searchbar{
+  height: 43px;
+  width: 280px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px black;
+  margin: 30px;
+  margin-right: 2px;
+  outline: none;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  }
+    ::placeholder {
+  color: white;
+  font-size: 20px;
+}
+#Add{
+  margin-left: 15px;
+}
+#searchicon{
+ position: absolute; 
+ margin-left: 827px;
+}
+.inside{
+  border: 2px solid black;
+  height: 250px;
+  margin: 15px;
+  box-shadow: 2px 2px 3px black;
+  border-radius: 15px;
+  display: flex;
+  background-image: linear-gradient(whitesmoke, white,whitesmoke);
+}
+
+footer{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ background-image: linear-gradient(grey, darkgrey);
+}
+.copy{
+  margin: 15px;
+}
+
+.product1{
+  height: 235px;
+  width: 270px;
+ margin: 14px 50px;
+ border-radius: 10px;
+}
+.detail1{
+ font-family: "Oswald", sans-serif; 
+}
+.price1{
+  position : absolute;
+  margin-left: 360px;
+  margin-top: 115px;
+}
+.MRP1{
+  position : absolute;
+  margin-left: 370px;
+  margin-top: 150px;
+}
+.off1{
+  border: 2px solid red;
+  height: 40px;
+  width: 50px ;
+  position: absolute;
+  background-color: red;
+  color: whitesmoke;
+  margin-top: 110px;
+  border-radius: 15px;
+  margin-left: 536px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.code1{
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 356px;
+}
+.od1{
+    position : absolute;
+    margin-left: 370px;
+    margin-top: 190px;
+    border-radius: 15px;
+}
+
+.detail2{
+ font-family: "Oswald", sans-serif; 
+}
+.price2{
+  position : absolute;
+  margin-left: 360px;
+  margin-top: 115px;
+}
+.MRP2{
+  position : absolute;
+  margin-left: 370px;
+  margin-top: 150px;
+}
+.off2{
+  border: 2px solid red;
+  height: 40px;
+  width: 50px ;
+  position: absolute;
+  background-color: red;
+  color: whitesmoke;
+  margin-top: 110px;
+  border-radius: 15px;
+  margin-left: 536px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.code2{
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 356px;
+}
+.od2{
+    position : absolute;
+    margin-left: 370px;
+    margin-top: 190px;
+    border-radius: 15px;
+}
+.product2 {
+  height: 220px;
+  width: 220px;
+  margin: 14px 50px;
+  border-radius: 10px;
+}
+.od3{
+    position : absolute;
+    margin-left: 370px;
+    margin-top: 190px;
+    border-radius: 15px;
+}
